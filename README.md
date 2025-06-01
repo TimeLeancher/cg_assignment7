@@ -21,6 +21,7 @@ Result of assignmet7
 Explanation
 ---
 The LoadShaders function loads, compiles, and links vertex shaders and fragment shaders in a given file path, which creates shader objects and returns the final shader program ID
+
 GLuint LoadShaders(const std::string& vertex_file_path, const std::string& fragment_file_path)
 {
     // Create the shaders
